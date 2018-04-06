@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AnimatedMaskLabel_Example' do
+  pod 'AnimatedMaskLabel', :path => '../'
+
+  target 'AnimatedMaskLabel_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
