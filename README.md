@@ -37,6 +37,8 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'AnimatedMaskLabel'
 ```
+#### Manual Installation
+Just drag the `AnimatedMaskLabel.swift` files into your project.
 
 ## Author
 
