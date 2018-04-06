@@ -40,6 +40,8 @@ pod 'AnimatedMaskLabel'
 #### Manual Installation
 Just drag the `AnimatedMaskLabel.swift` files into your project.
 
+## Usage
+
 ## Author
 
 <table>
@@ -60,4 +62,4 @@ Just drag the `AnimatedMaskLabel.swift` files into your project.
 
 ## License
 
-AnimatedMaskLabel is available under the MIT license. See the LICENSE file for more info.
+AnimatedMaskLabel is available under the MIT license. See the [LICENSE](LICENSE) file for more info.
