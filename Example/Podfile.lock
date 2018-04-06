@@ -1,0 +1,16 @@
+PODS:
+  - AnimatedMaskLabel (0.1.0)
+
+DEPENDENCIES:
+  - AnimatedMaskLabel (from `../`)
+
+EXTERNAL SOURCES:
+  AnimatedMaskLabel:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AnimatedMaskLabel: 019f9f8e682ec0cc2374222a2f108c834f89d12e
+
+PODFILE CHECKSUM: 462f242b761844cdbf42c79eb1cb803254baed0c
+
+COCOAPODS: 1.4.0
