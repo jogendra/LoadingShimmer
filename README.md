@@ -1,4 +1,6 @@
 # Animated Mask Label
+
+[![Join the chat at https://gitter.im/AnimatedMaskLabel/Lobby](https://badges.gitter.im/AnimatedMaskLabel/Lobby.svg)](https://gitter.im/AnimatedMaskLabel/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 <img src="https://github.com/imjog/AnimatedMaskLabel/blob/master/Screenshots/animatedMaskLabel.gif">
 
 [![Build Status](https://travis-ci.org/imjog/AnimatedMaskLabel.svg?branch=master)](https://travis-ci.org/imjog/AnimatedMaskLabel)
