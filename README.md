@@ -1,4 +1,5 @@
-# AnimatedMaskLabel
+# Animated Mask Label
+<img src="https://github.com/imjog/AnimatedMaskLabel/blob/master/Screenshots/animatedMaskLabel.gif">
 
 [![CI Status](http://img.shields.io/travis/imjog/AnimatedMaskLabel.svg?style=flat)](https://travis-ci.org/imjog/AnimatedMaskLabel)
 [![Version](https://img.shields.io/cocoapods/v/AnimatedMaskLabel.svg?style=flat)](http://cocoapods.org/pods/AnimatedMaskLabel)
