@@ -6,6 +6,18 @@
 [![License](https://img.shields.io/cocoapods/l/AnimatedMaskLabel.svg?style=flat)](http://cocoapods.org/pods/AnimatedMaskLabel)
 [![Platform](https://img.shields.io/cocoapods/p/AnimatedMaskLabel.svg?style=flat)](http://cocoapods.org/pods/AnimatedMaskLabel)
 
+
+<table>
+  <tr>
+    <td>Demo Screen</td>
+    <td>Screenshot</td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/imjog/AnimatedMaskLabel/blob/master/Screenshots/appdemo.gif" width="289.5"></td>
+    <td><img src="https://github.com/imjog/AnimatedMaskLabel/blob/master/Screenshots/animatedMaskLabelScreenshot.png" width="289.5"></td>
+  </tr>
+ </table>
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
