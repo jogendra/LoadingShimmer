@@ -26,6 +26,7 @@ Animated Mask Label is a nice gradient animated label. This is an easy way to ad
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'imjog' => 'imjog24@gmail.com' }
   s.source           = { :git => 'https://github.com/imjog/AnimatedMaskLabel.git', :tag => s.version.to_s }
+  s.frameworks   = 'UIKit', 'QuartzCore'
   s.social_media_url = 'https://twitter.com/imjog24'
 
   s.ios.deployment_target = '10.0'
