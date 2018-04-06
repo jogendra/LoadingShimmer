@@ -22,7 +22,6 @@ Animated Mask Label is a nice gradient animated label. This is an easy way to ad
                        DESC
 
   s.homepage         = 'https://github.com/imjog/AnimatedMaskLabel'
-  s.screenshots     = 'https://github.com/imjog/AnimatedMaskLabel/blob/master/Screenshots/animatedMaskLabel.gif', 'https://github.com/imjog/AnimatedMaskLabel/blob/master/Screenshots/animatedMaskLabelScreenshot.png'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'imjog' => 'imjog24@gmail.com' }
   s.source           = { :git => 'https://github.com/imjog/AnimatedMaskLabel.git', :tag => s.version.to_s }
