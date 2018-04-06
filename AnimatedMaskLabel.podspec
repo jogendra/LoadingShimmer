@@ -30,7 +30,7 @@ Animated Mask Label is a nice gradient animated label. This is an easy way to ad
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'Pods/AnimatedMaskLabel/Classes/**/*'
+  s.source_files = 'AnimatedMaskLabel/Classes/**/*'
   
   # s.resource_bundles = {
   #   'AnimatedMaskLabel' => ['AnimatedMaskLabel/Assets/*.png']
