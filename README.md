@@ -20,9 +20,23 @@
   </tr>
  </table>
 
-## Example
+## Demo/Example
+For demo:
+```
+$ pod try AnimatedMaskLabel
+```
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
+```
+$ cd Example
+```
+```
+$ pod install
+```
+If you don't have CocoaPods installed, grab it with `[sudo] gem install cocoapods`.
+```
+$ open AnimatedMaskLabel.xcworkspace
+```
 
 ## Requirements
 - iOS 10.0 or later
