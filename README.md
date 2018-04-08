@@ -77,11 +77,12 @@ Just drag the `AnimatedMaskLabel.swift` files into your project.
 
 ## Usage
 #### Step 1:
-Set your view class as `AnimatedMaskLabel` - 
+Set your view class as `AnimatedMaskLabel` - <br>
+<img src="Screenshots/setclass.png">
 
 #### Step 2:
-The text you want to animated:
-
+The text you want to animated:<br>
+<img src="Screenshots/attributedtext.png">
 
 ## Author
 
