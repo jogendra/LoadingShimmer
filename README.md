@@ -76,6 +76,12 @@ Run `carthage update` to build the framework and drag the built `AnimatedMaskLab
 Just drag the `AnimatedMaskLabel.swift` files into your project.
 
 ## Usage
+#### Step 1:
+Set your view class as `AnimatedMaskLabel` - 
+
+#### Step 2:
+The text you want to animated:
+
 
 ## Author
 
