@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		401739CD207A33A600698D02 /* AnimatedMaskLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 401739CB207A33A600698D02 /* AnimatedMaskLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		401739D0207A33A600698D02 /* AnimatedMaskLabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 401739C9207A33A600698D02 /* AnimatedMaskLabel.framework */; };
+		401739D1207A33A600698D02 /* AnimatedMaskLabel.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 401739C9207A33A600698D02 /* AnimatedMaskLabel.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		401739D7207A33FD00698D02 /* AnimatedMaskLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401739D6207A33FD00698D02 /* AnimatedMaskLabel.swift */; };
+		401739D9207A34F000698D02 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 401739D8207A34F000698D02 /* UIKit.framework */; };
+		401739DB207A34F900698D02 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 401739DA207A34F900698D02 /* QuartzCore.framework */; };
 		4F9DB0D6A6F8218F0CE109E3 /* Pods_AnimatedMaskLabel_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CDD786EA3485B8A76EA3033 /* Pods_AnimatedMaskLabel_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -18,6 +24,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		401739CE207A33A600698D02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 401739C8207A33A600698D02;
+			remoteInfo = AnimatedMaskLabel;
+		};
 		607FACE61AFB9204008FA782 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
@@ -27,9 +40,29 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		401739D5207A33A600698D02 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				401739D1207A33A600698D02 /* AnimatedMaskLabel.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		1336B2B5ED2DB2D127BA3F87 /* Pods-AnimatedMaskLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimatedMaskLabel_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AnimatedMaskLabel_Tests/Pods-AnimatedMaskLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2CDD786EA3485B8A76EA3033 /* Pods_AnimatedMaskLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimatedMaskLabel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		401739C9207A33A600698D02 /* AnimatedMaskLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AnimatedMaskLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		401739CB207A33A600698D02 /* AnimatedMaskLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimatedMaskLabel.h; sourceTree = "<group>"; };
+		401739CC207A33A600698D02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		401739D6207A33FD00698D02 /* AnimatedMaskLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AnimatedMaskLabel.swift; path = ../Classes/AnimatedMaskLabel.swift; sourceTree = "<group>"; };
+		401739D8207A34F000698D02 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		401739DA207A34F900698D02 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		415CE9B584954D5E428FAA5B /* Pods-AnimatedMaskLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimatedMaskLabel_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AnimatedMaskLabel_Tests/Pods-AnimatedMaskLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		606EC54C938F3387E00481F6 /* AnimatedMaskLabel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AnimatedMaskLabel.podspec; path = ../AnimatedMaskLabel.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* AnimatedMaskLabel_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimatedMaskLabel_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,10 +83,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		401739C5207A33A600698D02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				401739DB207A34F900698D02 /* QuartzCore.framework in Frameworks */,
+				401739D9207A34F000698D02 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		607FACCD1AFB9204008FA782 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				401739D0207A33A600698D02 /* AnimatedMaskLabel.framework in Frameworks */,
 				B81B964FE9A82EF197B3D897 /* Pods_AnimatedMaskLabel_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -69,12 +112,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		401739CA207A33A600698D02 /* AnimatedMaskLabel */ = {
+			isa = PBXGroup;
+			children = (
+				401739CB207A33A600698D02 /* AnimatedMaskLabel.h */,
+				401739CC207A33A600698D02 /* Info.plist */,
+			);
+			path = AnimatedMaskLabel;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				401739D6207A33FD00698D02 /* AnimatedMaskLabel.swift */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for AnimatedMaskLabel */,
 				607FACE81AFB9204008FA782 /* Tests */,
+				401739CA207A33A600698D02 /* AnimatedMaskLabel */,
 				607FACD11AFB9204008FA782 /* Products */,
 				746553B0446C80F2BAD3AD03 /* Pods */,
 				EEE3F799010745CA9886484B /* Frameworks */,
@@ -86,6 +140,7 @@
 			children = (
 				607FACD01AFB9204008FA782 /* AnimatedMaskLabel_Example.app */,
 				607FACE51AFB9204008FA782 /* AnimatedMaskLabel_Tests.xctest */,
+				401739C9207A33A600698D02 /* AnimatedMaskLabel.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -153,6 +208,8 @@
 		EEE3F799010745CA9886484B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				401739DA207A34F900698D02 /* QuartzCore.framework */,
+				401739D8207A34F000698D02 /* UIKit.framework */,
 				86A69BA506C032657E397D70 /* Pods_AnimatedMaskLabel_Example.framework */,
 				2CDD786EA3485B8A76EA3033 /* Pods_AnimatedMaskLabel_Tests.framework */,
 			);
@@ -161,7 +218,36 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		401739C6207A33A600698D02 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				401739CD207A33A600698D02 /* AnimatedMaskLabel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		401739C8207A33A600698D02 /* AnimatedMaskLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 401739D4207A33A600698D02 /* Build configuration list for PBXNativeTarget "AnimatedMaskLabel" */;
+			buildPhases = (
+				401739C4207A33A600698D02 /* Sources */,
+				401739C5207A33A600698D02 /* Frameworks */,
+				401739C6207A33A600698D02 /* Headers */,
+				401739C7207A33A600698D02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimatedMaskLabel;
+			productName = AnimatedMaskLabel;
+			productReference = 401739C9207A33A600698D02 /* AnimatedMaskLabel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		607FACCF1AFB9204008FA782 /* AnimatedMaskLabel_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "AnimatedMaskLabel_Example" */;
@@ -172,10 +258,12 @@
 				607FACCE1AFB9204008FA782 /* Resources */,
 				678779C2DC1EDEDC1A22D2D2 /* [CP] Embed Pods Frameworks */,
 				BAC280D4C25211716A4F5E14 /* [CP] Copy Pods Resources */,
+				401739D5207A33A600698D02 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				401739CF207A33A600698D02 /* PBXTargetDependency */,
 			);
 			name = AnimatedMaskLabel_Example;
 			productName = AnimatedMaskLabel;
@@ -213,6 +301,10 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
+					401739C8207A33A600698D02 = {
+						CreatedOnToolsVersion = 9.3;
+						ProvisioningStyle = Automatic;
+					};
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
@@ -239,11 +331,19 @@
 			targets = (
 				607FACCF1AFB9204008FA782 /* AnimatedMaskLabel_Example */,
 				607FACE41AFB9204008FA782 /* AnimatedMaskLabel_Tests */,
+				401739C8207A33A600698D02 /* AnimatedMaskLabel */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		401739C7207A33A600698D02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		607FACCE1AFB9204008FA782 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -366,6 +466,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		401739C4207A33A600698D02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				401739D7207A33FD00698D02 /* AnimatedMaskLabel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		607FACCC1AFB9204008FA782 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -386,6 +494,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		401739CF207A33A600698D02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 401739C8207A33A600698D02 /* AnimatedMaskLabel */;
+			targetProxy = 401739CE207A33A600698D02 /* PBXContainerItemProxy */;
+		};
 		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 607FACCF1AFB9204008FA782 /* AnimatedMaskLabel_Example */;
@@ -413,6 +526,74 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		401739D2207A33A600698D02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = AnimatedMaskLabel/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jog.AnimatedMaskLabel;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		401739D3207A33A600698D02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = AnimatedMaskLabel/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jog.AnimatedMaskLabel;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		607FACED1AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -516,7 +697,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BA2DED7AEE51D1B23DC122FE /* Pods-AnimatedMaskLabel_Example.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = AnimatedMaskLabel/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -532,7 +715,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B9140CA60ED6422BB4300670 /* Pods-AnimatedMaskLabel_Example.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = AnimatedMaskLabel/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -589,6 +774,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		401739D4207A33A600698D02 /* Build configuration list for PBXNativeTarget "AnimatedMaskLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				401739D2207A33A600698D02 /* Debug */,
+				401739D3207A33A600698D02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "AnimatedMaskLabel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
