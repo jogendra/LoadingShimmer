@@ -84,6 +84,9 @@ Set your view class as `AnimatedMaskLabel` - <br>
 The text you want to animated:<br>
 <img src="Screenshots/attributedtext.png">
 
+## Achievements
+AnimatedMaskLabel was mentioned in [Week 225 issue](http://ios-goodies.com/post/172861209391/week-225) of [iOS Goodies](http://ios-goodies.com/) Newsletter (A [open source newsletter](https://github.com/iOS-Goodies/iOS-Goodies) for iOS) and it was on GitHub Swift Trending list for many days.
+
 ## Author
 
 <table>
