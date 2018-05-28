@@ -11,7 +11,7 @@ import QuartzCore
 @IBDesignable
 class AnimatedMaskLabel: UIView {
 
-    let gradientLayer: CAGradientLayer = {
+    lazy var gradientLayer: CAGradientLayer = {
         let gradientLayer = CAGradientLayer()
 
         // Configure the gradient here
@@ -36,7 +36,7 @@ class AnimatedMaskLabel: UIView {
         return gradientLayer
     }()
 
-    let textAttributes : [NSAttributedStringKey: AnyObject] = {
+    lazy var textAttributes : [NSAttributedStringKey: AnyObject] = {
         let style = NSMutableParagraphStyle()
         style.alignment = .center
 
