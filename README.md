@@ -2,7 +2,7 @@
 
 <img src="https://github.com/imjog/AnimatedMaskLabel/blob/master/Screenshots/animatedMaskLabel.gif">
 
-[![Build Status](https://travis-ci.org/imjog/AnimatedMaskLabel.svg?branch=master)](https://travis-ci.org/imjog/AnimatedMaskLabel)
+
 [![Version](https://img.shields.io/cocoapods/v/AnimatedMaskLabel.svg?style=flat)](http://cocoapods.org/pods/AnimatedMaskLabel)
 [![License](https://img.shields.io/cocoapods/l/AnimatedMaskLabel.svg?style=flat)](http://cocoapods.org/pods/AnimatedMaskLabel)
 [![Platform](https://img.shields.io/cocoapods/p/AnimatedMaskLabel.svg?style=flat)](http://cocoapods.org/pods/AnimatedMaskLabel)
