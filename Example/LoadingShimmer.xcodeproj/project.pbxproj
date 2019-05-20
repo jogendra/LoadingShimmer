@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40F1AB9F229297DA00D96351 /* LoadingShimmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F1AB9E229297DA00D96351 /* LoadingShimmer.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		40F1AB9E229297DA00D96351 /* LoadingShimmer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingShimmer.swift; sourceTree = "<group>"; };
 		427F6E9B86700C94DAB3463B /* Pods_LoadingShimmer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoadingShimmer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* LoadingShimmer_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoadingShimmer_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -39,11 +41,11 @@
 		607FACE51AFB9204008FA782 /* LoadingShimmer_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoadingShimmer_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		655E6D6060703A1040B8C6FF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		655E6D6060703A1040B8C6FF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		92AD9DD89F41536EDF75B193 /* Pods-LoadingShimmer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoadingShimmer_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LoadingShimmer_Tests/Pods-LoadingShimmer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B03E1FFB19A8733BCFA7F325 /* Pods-LoadingShimmer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoadingShimmer_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LoadingShimmer_Example/Pods-LoadingShimmer_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B0665EC7731E6DB3C6581FA3 /* LoadingShimmer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LoadingShimmer.podspec; path = ../LoadingShimmer.podspec; sourceTree = "<group>"; };
-		C776E47756E323FE91B87245 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B0665EC7731E6DB3C6581FA3 /* LoadingShimmer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LoadingShimmer.podspec; path = ../LoadingShimmer.podspec; sourceTree = "<group>"; };
+		C776E47756E323FE91B87245 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D051FB1DD97C5D7C13F03865 /* Pods_LoadingShimmer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoadingShimmer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9C17EA2944A32003161CF65 /* Pods-LoadingShimmer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoadingShimmer_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LoadingShimmer_Tests/Pods-LoadingShimmer_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E93742B49CC24AD45A168EE4 /* Pods-LoadingShimmer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoadingShimmer_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LoadingShimmer_Example/Pods-LoadingShimmer_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -78,6 +80,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		40F1ABA02292980400D96351 /* LoadingShimmer */ = {
+			isa = PBXGroup;
+			children = (
+				40F1AB9E229297DA00D96351 /* LoadingShimmer.swift */,
+			);
+			name = LoadingShimmer;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +118,7 @@
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				40F1ABA02292980400D96351 /* LoadingShimmer */,
 			);
 			name = "Example for LoadingShimmer";
 			path = LoadingShimmer;
@@ -226,6 +237,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -323,6 +335,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				40F1AB9F229297DA00D96351 /* LoadingShimmer.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

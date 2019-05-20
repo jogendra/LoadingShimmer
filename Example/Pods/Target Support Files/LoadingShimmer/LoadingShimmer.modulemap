@@ -1,0 +1,6 @@
+framework module LoadingShimmer {
+  umbrella header "LoadingShimmer-umbrella.h"
+
+  export *
+  module * { export * }
+}

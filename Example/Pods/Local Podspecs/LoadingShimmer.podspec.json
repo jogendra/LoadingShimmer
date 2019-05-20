@@ -1,0 +1,22 @@
+{
+  "name": "LoadingShimmer",
+  "version": "0.1.0",
+  "summary": "A short description of LoadingShimmer.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jogendra/LoadingShimmer",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jogendra": "imjog24@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/jogendra/LoadingShimmer.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LoadingShimmer/Classes/**/*"
+}

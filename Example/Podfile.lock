@@ -1,0 +1,16 @@
+PODS:
+  - LoadingShimmer (0.1.0)
+
+DEPENDENCIES:
+  - LoadingShimmer (from `../`)
+
+EXTERNAL SOURCES:
+  LoadingShimmer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LoadingShimmer: d66878dff25e8a4145bdcfa995b6e4362ccf5386
+
+PODFILE CHECKSUM: 0107e5d2cb755b6a15e4940f94470bc7c912d121
+
+COCOAPODS: 1.5.3
