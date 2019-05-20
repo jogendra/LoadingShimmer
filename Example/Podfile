@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LoadingShimmer_Example' do
+  pod 'LoadingShimmer', :path => '../'
+
+  target 'LoadingShimmer_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
