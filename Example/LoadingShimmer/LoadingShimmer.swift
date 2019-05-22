@@ -77,7 +77,7 @@ class LoadingShimmer: NSObject {
             }
         }
 
-        let coverableCellsIds = ["Cell1", "Cell1", "Cell1", "Cell1", "Cell1"]
+        let coverableCellsIds = ["cell1", "cell2", "cell3"]
         if type(of: view!) === UITableView.self {
             for i in 0..<coverableCellsIds.count {
                 getTableViewPath(view, index: i, coverableCellsIds: coverableCellsIds)

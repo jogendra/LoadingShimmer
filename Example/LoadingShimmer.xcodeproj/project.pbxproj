@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		40ED353A229578A500B42B29 /* Pods_LoadingShimmer_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40ED3539229578A500B42B29 /* Pods_LoadingShimmer_Example.framework */; };
+		40ED353C229590B400B42B29 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ED353B229590B400B42B29 /* TableViewController.swift */; };
 		40F1AB9F229297DA00D96351 /* LoadingShimmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F1AB9E229297DA00D96351 /* LoadingShimmer.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -30,6 +31,7 @@
 
 /* Begin PBXFileReference section */
 		40ED3539229578A500B42B29 /* Pods_LoadingShimmer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_LoadingShimmer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40ED353B229590B400B42B29 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		40F1AB9E229297DA00D96351 /* LoadingShimmer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingShimmer.swift; sourceTree = "<group>"; };
 		427F6E9B86700C94DAB3463B /* Pods_LoadingShimmer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoadingShimmer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* LoadingShimmer_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoadingShimmer_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,6 +118,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				40ED353B229590B400B42B29 /* TableViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -340,6 +343,7 @@
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				40F1AB9F229297DA00D96351 /* LoadingShimmer.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				40ED353C229590B400B42B29 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
