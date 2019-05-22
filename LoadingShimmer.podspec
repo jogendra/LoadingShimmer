@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LoadingShimmer'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'An easy way to add a shimmering effect to any view with just one line of code. It is useful as an unobtrusive loading indicator.'
 
 # This description is used to generate tags and improve search results.
@@ -29,6 +29,7 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://twitter.com/jogendrafx'
 
   s.ios.deployment_target = '10.0'
+  s.swift_version = '5.0'
 
   s.source_files = 'LoadingShimmer/Classes/**/*'
   
