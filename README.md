@@ -69,6 +69,7 @@ Jogendra Singh
 </td>
 </tr> 
 </table>
+
 The pod is inspired by [DWLoadingShimmer](https://github.com/iDwyane/DWLoadingShimmer)
 
 ## License
