@@ -20,5 +20,13 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func didTapStop(_ sender: Any) {
+        LoadingShimmer.stopCovering(view)
+    }
+
+    @IBAction func didTapStart(_ sender: Any) {
+        LoadingShimmer.startCovering(view)
+    }
+
 }
 

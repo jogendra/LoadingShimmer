@@ -13,14 +13,18 @@ let safeAreaTopHeight = (kScreenHeight == 812.0 || kScreenHeight == 896.0) ? 88 
 
 class LoadingShimmer: NSObject {
 
-    private var cover: UIView?
+    static let shared = LoadingShimmer()
+
+    private override init() {}
+
+    private var _viewCover: UIView?
     private var viewCover: UIView? {
-        if cover == nil {
-            let cover = UIView()
-            cover.tag = 1024
-            cover.backgroundColor = UIColor.white
+        if _viewCover == nil {
+            _viewCover = UIView()
+            _viewCover?.tag = 1024
+            _viewCover?.backgroundColor = UIColor.white
         }
-        return cover
+        return _viewCover
     }
 
     private var colorLayer: CAGradientLayer?
@@ -37,12 +41,12 @@ class LoadingShimmer: NSObject {
 
     private var addOffsetflag = false
 
-    public func startCovering(_ view: UIView?) {
-        self.coverSubviews(view)
+    class func startCovering(_ view: UIView?) {
+        shared.coverSubviews(view)
     }
 
-    public func stopCovering(_ view: UIView?) {
-        self.removeSubviews(view)
+    class func stopCovering(_ view: UIView?) {
+        shared.removeSubviews(view)
     }
 
 
