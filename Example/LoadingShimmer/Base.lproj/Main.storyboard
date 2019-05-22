@@ -21,27 +21,94 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Tmh-lR-F0d">
-                                <rect key="frame" x="48" y="158" width="121" height="28"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Tmh-lR-F0d">
+                                <rect key="frame" x="16" y="450" width="121" height="29"/>
                                 <segments>
                                     <segment title="First"/>
                                     <segment title="Second"/>
                                 </segments>
                             </segmentedControl>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EdJ-Ic-oCs">
-                                <rect key="frame" x="120" y="228" width="49" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </switch>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lorem ipsum donor sit amet" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2rf-i7-acX">
-                                <rect key="frame" x="80" y="291" width="214" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-radar-96" translatesAutoresizingMaskIntoConstraints="NO" id="xc8-27-KwN">
+                                <rect key="frame" x="16" y="132" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="4eK-eP-Jdj"/>
+                                    <constraint firstAttribute="width" constant="80" id="kVR-pN-FJz"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="40"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dHA-LL-taA">
+                                <rect key="frame" x="104" y="183" width="255" height="30"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="EK1-kK-fC1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="Find Source Code on GitHub">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="10c-tx-jJU">
+                                <rect key="frame" x="16" y="245" width="343" height="2"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="2" id="r9U-Hd-ml7"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2rf-i7-acX">
+                                <rect key="frame" x="104" y="132" width="255" height="43"/>
+                                <string key="text">An easy way to add a shimmering effect to any view with just one line of code.
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="VUR-qa-Anr">
+                                <rect key="frame" x="16" y="263" width="343" height="133"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">LoadingShimmer is an easy way to add a shimmering effect to any view with just single line of code. It is useful as an unobtrusive loading indicator. This is a network request waiting for the framework, the framework to increase the dynamic effect, convenient and fast, a line of code can be used.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="eEb-ay-wDU">
+                                <rect key="frame" x="14" y="412" width="347" height="31"/>
+                            </slider>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EdJ-Ic-oCs">
+                                <rect key="frame" x="310" y="450" width="51" height="31"/>
+                            </switch>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="eEb-ay-wDU" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="2Jd-Vm-nRK"/>
+                            <constraint firstItem="dHA-LL-taA" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="3Mu-4p-ckh"/>
+                            <constraint firstItem="eEb-ay-wDU" firstAttribute="top" secondItem="VUR-qa-Anr" secondAttribute="bottom" constant="16" id="4Pf-Ic-Ns6"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="eEb-ay-wDU" secondAttribute="trailing" id="7vT-T2-wNQ"/>
+                            <constraint firstAttribute="trailing" secondItem="2rf-i7-acX" secondAttribute="trailing" constant="16" id="IfI-uj-LBw"/>
+                            <constraint firstItem="VUR-qa-Anr" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="JCJ-n9-T9C"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="10c-tx-jJU" secondAttribute="trailing" id="Pxr-MF-Gyr"/>
+                            <constraint firstItem="VUR-qa-Anr" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="StJ-JB-S2a"/>
+                            <constraint firstItem="dHA-LL-taA" firstAttribute="top" secondItem="2rf-i7-acX" secondAttribute="bottom" constant="8" id="WJd-fX-3A0"/>
+                            <constraint firstItem="10c-tx-jJU" firstAttribute="top" secondItem="dHA-LL-taA" secondAttribute="bottom" constant="32" id="XYQ-2c-nTy"/>
+                            <constraint firstItem="EdJ-Ic-oCs" firstAttribute="top" secondItem="eEb-ay-wDU" secondAttribute="bottom" constant="8" id="Xao-W1-T2S"/>
+                            <constraint firstItem="xc8-27-KwN" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="16" id="c3f-0J-Jlt"/>
+                            <constraint firstItem="Tmh-lR-F0d" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="cCe-Lj-get"/>
+                            <constraint firstItem="VUR-qa-Anr" firstAttribute="top" secondItem="10c-tx-jJU" secondAttribute="bottom" constant="16" id="ePi-5H-VzO"/>
+                            <constraint firstItem="2rf-i7-acX" firstAttribute="leading" secondItem="xc8-27-KwN" secondAttribute="trailing" constant="8" id="iK0-a2-7Dd"/>
+                            <constraint firstItem="Tmh-lR-F0d" firstAttribute="top" secondItem="eEb-ay-wDU" secondAttribute="bottom" constant="8" id="jAa-Dh-hWr"/>
+                            <constraint firstItem="10c-tx-jJU" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="kQH-q5-ovR"/>
+                            <constraint firstItem="xc8-27-KwN" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="oaI-Cc-qm0"/>
+                            <constraint firstItem="EdJ-Ic-oCs" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="pEy-6L-cmZ"/>
+                            <constraint firstItem="2rf-i7-acX" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="16" id="tTj-Um-yPr"/>
+                            <constraint firstItem="dHA-LL-taA" firstAttribute="leading" secondItem="xc8-27-KwN" secondAttribute="trailing" constant="8" id="uUz-qa-Uwd"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="LoadingShimmer" id="l4U-PX-jWi">
                         <rightBarButtonItems>
@@ -62,7 +129,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1089" y="-506"/>
+            <point key="canvasLocation" x="1088.8" y="-506.89655172413796"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Tx5-rf-am2">
@@ -90,4 +157,7 @@
             <point key="canvasLocation" x="296.80000000000001" y="-564.46776611694156"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="icons8-radar-96" width="96" height="96"/>
+    </resources>
 </document>

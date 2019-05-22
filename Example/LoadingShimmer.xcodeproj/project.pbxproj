@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40ED353A229578A500B42B29 /* Pods_LoadingShimmer_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40ED3539229578A500B42B29 /* Pods_LoadingShimmer_Example.framework */; };
 		40F1AB9F229297DA00D96351 /* LoadingShimmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F1AB9E229297DA00D96351 /* LoadingShimmer.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -15,7 +16,6 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		9689A6AD48DE84F09C1F768F /* Pods_LoadingShimmer_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 427F6E9B86700C94DAB3463B /* Pods_LoadingShimmer_Tests.framework */; };
-		A07C08198CB8689143061505 /* Pods_LoadingShimmer_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D051FB1DD97C5D7C13F03865 /* Pods_LoadingShimmer_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		40ED3539229578A500B42B29 /* Pods_LoadingShimmer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_LoadingShimmer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		40F1AB9E229297DA00D96351 /* LoadingShimmer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingShimmer.swift; sourceTree = "<group>"; };
 		427F6E9B86700C94DAB3463B /* Pods_LoadingShimmer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoadingShimmer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* LoadingShimmer_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoadingShimmer_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,7 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A07C08198CB8689143061505 /* Pods_LoadingShimmer_Example.framework in Frameworks */,
+				40ED353A229578A500B42B29 /* Pods_LoadingShimmer_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +75,7 @@
 		1901E85A5885B2C63412F6E0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				40ED3539229578A500B42B29 /* Pods_LoadingShimmer_Example.framework */,
 				D051FB1DD97C5D7C13F03865 /* Pods_LoadingShimmer_Example.framework */,
 				427F6E9B86700C94DAB3463B /* Pods_LoadingShimmer_Tests.framework */,
 			);
@@ -427,7 +429,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -477,7 +479,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
