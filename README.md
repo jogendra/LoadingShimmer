@@ -6,7 +6,14 @@ An easy way to add a shimmering effect to any view with just single line of code
 [![License](https://img.shields.io/cocoapods/l/LoadingShimmer.svg?style=flat)](https://cocoapods.org/pods/LoadingShimmer)
 [![Platform](https://img.shields.io/cocoapods/p/LoadingShimmer.svg?style=flat)](https://cocoapods.org/pods/LoadingShimmer)
 
-<img src="https://github.com/jogendra/LoadingShimmer/blob/master/Screenshots/demo.gif" width="300">
+<table>
+<tr>
+<td>
+<img src="https://github.com/jogendra/LoadingShimmer/blob/master/Screenshots/demo.gif" width="330">
+</td>
+<td><img src="https://github.com/jogendra/LoadingShimmer/blob/master/Screenshots/tableDemo.gif" width="360"></td>
+  </tr>
+  </table>
 
 ## Demo/Example
 For demo:
