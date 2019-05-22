@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LoadingShimmer'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'An easy way to add a shimmering effect to any view with just one line of code. It is useful as an unobtrusive loading indicator.'
 
 # This description is used to generate tags and improve search results.
@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
                        DESC
 
   s.homepage         = 'https://github.com/jogendra/LoadingShimmer'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.screenshots     = 'https://github.com/jogendra/LoadingShimmer/blob/master/Screenshots/demo.gif', 'https://github.com/jogendra/LoadingShimmer/blob/master/Screenshots/tableDemo.gif'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'jogendra' => 'imjog24@gmail.com' }
   s.source           = { :git => 'https://github.com/jogendra/LoadingShimmer.git', :tag => s.version.to_s }
