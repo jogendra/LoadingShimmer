@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'LoadingShimmer'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of LoadingShimmer.'
+  s.summary          = 'An easy way to add a shimmering effect to any view with just one line of code. It is useful as an unobtrusive loading indicator.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  An easy way to add a shimmering effect to any view with just single line of code. It is useful as an unobtrusive loading indicator. This is a network request waiting for the framework, the framework to increase the dynamic effect, convenient and fast, a line of code can be used.
                        DESC
 
   s.homepage         = 'https://github.com/jogendra/LoadingShimmer'
@@ -26,9 +26,9 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'jogendra' => 'imjog24@gmail.com' }
   s.source           = { :git => 'https://github.com/jogendra/LoadingShimmer.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'https://twitter.com/jogendrafx'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'LoadingShimmer/Classes/**/*'
   
