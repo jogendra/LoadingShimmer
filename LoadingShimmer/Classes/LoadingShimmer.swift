@@ -51,18 +51,7 @@ class LoadingShimmer: NSObject {
 
 
     func removeSubviews(_ view: UIView?) {
-
-        if view == nil {
-            return
-        }
-
-        for subview in view?.subviews ?? [] {
-            if subview.tag == 1024 {
-                subview.removeFromSuperview()
-                break
-            }
-        }
-
+        view?.viewWithTag(1024)?.removeFromSuperview()
     }
 
     func coverSubviews(_ view: UIView?) {
