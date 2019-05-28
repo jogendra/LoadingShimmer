@@ -8,8 +8,8 @@
 
 import UIKit
 
-let kScreenHeight = UIScreen.main.bounds.size.height
-let safeAreaTopHeight = (kScreenHeight == 812.0 || kScreenHeight == 896.0) ? 88 : 64
+private let kScreenHeight = UIScreen.main.bounds.size.height
+private let safeAreaTopHeight = (kScreenHeight == 812.0 || kScreenHeight == 896.0) ? 88 : 64
 
 class LoadingShimmer: NSObject {
 
