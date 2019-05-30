@@ -11,9 +11,9 @@ import UIKit
 private let kScreenHeight = UIScreen.main.bounds.size.height
 private let safeAreaTopHeight = (kScreenHeight == 812.0 || kScreenHeight == 896.0) ? 88 : 64
 
-class LoadingShimmer: NSObject {
+public class LoadingShimmer: NSObject {
 
-    static let shared = LoadingShimmer()
+    public static let shared = LoadingShimmer()
 
     private override init() {}
 
@@ -41,11 +41,11 @@ class LoadingShimmer: NSObject {
 
     private var addOffsetflag = false
 
-    class func startCovering(_ view: UIView?) {
+    public class func startCovering(_ view: UIView?) {
         shared.coverSubviews(view)
     }
 
-    class func stopCovering(_ view: UIView?) {
+    public class func stopCovering(_ view: UIView?) {
         shared.removeSubviews(view)
     }
 
