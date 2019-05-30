@@ -8,12 +8,12 @@
 
 import UIKit
 
-let kScreenHeight = UIScreen.main.bounds.size.height
-let safeAreaTopHeight = (kScreenHeight == 812.0 || kScreenHeight == 896.0) ? 88 : 64
+private let kScreenHeight = UIScreen.main.bounds.size.height
+private let safeAreaTopHeight = (kScreenHeight == 812.0 || kScreenHeight == 896.0) ? 88 : 64
 
-class LoadingShimmer: NSObject {
+public class LoadingShimmer: NSObject {
 
-    static let shared = LoadingShimmer()
+    public static let shared = LoadingShimmer()
 
     private override init() {}
 
@@ -41,28 +41,17 @@ class LoadingShimmer: NSObject {
 
     private var addOffsetflag = false
 
-    class func startCovering(_ view: UIView?) {
+    public class func startCovering(_ view: UIView?) {
         shared.coverSubviews(view)
     }
 
-    class func stopCovering(_ view: UIView?) {
+    public class func stopCovering(_ view: UIView?) {
         shared.removeSubviews(view)
     }
 
 
     func removeSubviews(_ view: UIView?) {
-
-        if view == nil {
-            return
-        }
-
-        for subview in view?.subviews ?? [] {
-            if subview.tag == 1024 {
-                subview.removeFromSuperview()
-                break
-            }
-        }
-
+        view?.viewWithTag(1024)?.removeFromSuperview()
     }
 
     func coverSubviews(_ view: UIView?) {
@@ -77,7 +66,7 @@ class LoadingShimmer: NSObject {
             }
         }
 
-        let coverableCellsIds = ["cell1", "cell2", "cell3"]
+        let coverableCellsIds = ["Cell1", "Cell1", "Cell1", "Cell1", "Cell1"]
         if type(of: view!) === UITableView.self {
             for i in 0..<coverableCellsIds.count {
                 getTableViewPath(view, index: i, coverableCellsIds: coverableCellsIds)
