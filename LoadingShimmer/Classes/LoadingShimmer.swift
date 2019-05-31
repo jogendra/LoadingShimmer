@@ -22,7 +22,7 @@ public class LoadingShimmer: NSObject {
         if _viewCover == nil {
             _viewCover = UIView()
             _viewCover?.tag = 1024
-            _viewCover?.backgroundColor = UIColor.white
+            _viewCover?.backgroundColor = UIColor.clear
         }
         return _viewCover
     }
@@ -75,7 +75,7 @@ public class LoadingShimmer: NSObject {
             return
         }
 
-        view?.backgroundColor = UIColor.white
+        viewCover?.backgroundColor = view?.backgroundColor
 
         if (view?.subviews.count ?? 0) > 0 {
             for subview in view?.subviews ?? [] {
@@ -159,6 +159,13 @@ public class LoadingShimmer: NSObject {
         maskLayer.fillColor = UIColor.red.cgColor
 
         colorLayer.mask = maskLayer
+        
+        if let targetBackgroundColor = viewCover?.backgroundColor?.cgColor {
+            colorLayer.backgroundColor = targetBackgroundColor
+        } else {
+            colorLayer.backgroundColor = UIColor.white.cgColor
+        }
+        
         let animation = CABasicAnimation(keyPath: "locations")
         animation.fromValue = colorLayer.locations
         animation.toValue = [NSNumber(value: 0), NSNumber(value: 1), NSNumber(value: 1), NSNumber(value: 1.2), NSNumber(value: 1.2)]
