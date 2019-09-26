@@ -22,7 +22,7 @@ public class LoadingShimmer: NSObject {
         if _viewCover == nil {
             _viewCover = UIView()
             _viewCover?.tag = 1024
-            _viewCover?.backgroundColor = UIColor.white
+            _viewCover?.backgroundColor = UIColor.clear
         }
         return _viewCover
     }
@@ -41,8 +41,9 @@ public class LoadingShimmer: NSObject {
 
     private var addOffsetflag = false
 
-    public class func startCovering(_ view: UIView?) {
-        shared.coverSubviews(view)
+//    Pass the identifiers as nil if the view is not TableView
+    public class func startCovering(_ view: UIView?, with identifiers: [String]?) {
+        shared.coverSubviews(view, with: identifiers)
     }
 
     public class func stopCovering(_ view: UIView?) {
@@ -54,7 +55,7 @@ public class LoadingShimmer: NSObject {
         view?.viewWithTag(1024)?.removeFromSuperview()
     }
 
-    func coverSubviews(_ view: UIView?) {
+    func coverSubviews(_ view: UIView?, with identifiers: [String]?) {
 
         if view == nil {
             return
@@ -66,16 +67,17 @@ public class LoadingShimmer: NSObject {
             }
         }
 
-        let coverableCellsIds = ["Cell1", "Cell1", "Cell1", "Cell1", "Cell1"]
-        if type(of: view!) === UITableView.self {
-            for i in 0..<coverableCellsIds.count {
-                getTableViewPath(view, index: i, coverableCellsIds: coverableCellsIds)
+        if let coverableCellsIds = identifiers {
+            if type(of: view!) === UITableView.self {
+                for i in 0..<coverableCellsIds.count {
+                    getTableViewPath(view, index: i, coverableCellsIds: coverableCellsIds)
+                }
+                addCover(view)
+                return
             }
-            addCover(view)
-            return
         }
 
-        view?.backgroundColor = UIColor.white
+        viewCover?.backgroundColor = view?.backgroundColor
 
         if (view?.subviews.count ?? 0) > 0 {
             for subview in view?.subviews ?? [] {
@@ -159,6 +161,13 @@ public class LoadingShimmer: NSObject {
         maskLayer.fillColor = UIColor.red.cgColor
 
         colorLayer.mask = maskLayer
+
+        if let targetBackgroundColor = viewCover?.backgroundColor?.cgColor {
+            colorLayer.backgroundColor = targetBackgroundColor
+        } else {
+            colorLayer.backgroundColor = UIColor.white.cgColor
+        }
+
         let animation = CABasicAnimation(keyPath: "locations")
         animation.fromValue = colorLayer.locations
         animation.toValue = [NSNumber(value: 0), NSNumber(value: 1), NSNumber(value: 1), NSNumber(value: 1.2), NSNumber(value: 1.2)]

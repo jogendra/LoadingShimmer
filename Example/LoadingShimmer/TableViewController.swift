@@ -12,6 +12,7 @@ class TableViewController: UITableViewController {
 
     private var numberOfSections: Int = 0
     private var numberOfRows: Int = 0
+    let coverableCellsIds = ["Cell1", "Cell1", "Cell1", "Cell1", "Cell1"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,12 +24,12 @@ class TableViewController: UITableViewController {
         // self.clearsSelectionOnViewWillAppear = false
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
+        // self.navigationItem.rightBarButtonItem = selfc.editButtonItem
     }
 
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        LoadingShimmer.startCovering(tableView)
+        LoadingShimmer.startCovering(tableView, with: coverableCellsIds)
     }
 
     // MARK: - Table view data source
@@ -59,7 +60,7 @@ class TableViewController: UITableViewController {
         self.numberOfSections = 0
         self.numberOfRows = 0
         tableView.reloadData()
-        LoadingShimmer.startCovering(tableView)
+        LoadingShimmer.startCovering(tableView, with: coverableCellsIds)
     }
 
     @IBAction func didTapStop(_ sender: Any) {

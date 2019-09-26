@@ -285,7 +285,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-LoadingShimmer_Example/Pods-LoadingShimmer_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-LoadingShimmer_Example/Pods-LoadingShimmer_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/LoadingShimmer/LoadingShimmer.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -294,7 +294,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LoadingShimmer_Example/Pods-LoadingShimmer_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LoadingShimmer_Example/Pods-LoadingShimmer_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4ABDCDB6C2071A9821E6AB4F /* [CP] Check Pods Manifest.lock */ = {
