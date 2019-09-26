@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/jogendra/LoadingShimmer'
   # s.screenshots     = 'https://github.com/jogendra/LoadingShimmer/blob/master/Screenshots/demo.png', 'https://github.com/jogendra/LoadingShimmer/blob/master/Screenshots/shimmer.png'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'jogendra' => 'imjog24@gmail.com' }
+  s.author           = { 'jogendra' => 'jogendrafx@gmail.com' }
   s.source           = { :git => 'https://github.com/jogendra/LoadingShimmer.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/jogendrafx'
 
