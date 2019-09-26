@@ -25,7 +25,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func didTapStart(_ sender: Any) {
-        LoadingShimmer.startCovering(view)
+        LoadingShimmer.startCovering(view, with: nil)
     }
 
 }
