@@ -8,14 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LoadingShimmer'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'An easy way to add a shimmering effect to any view with just one line of code. It is useful as an unobtrusive loading indicator.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
   An easy way to add a shimmering effect to any view with just single line of code. It is useful as an unobtrusive loading indicator. This is a network request waiting for the framework, the framework to increase the dynamic effect, convenient and fast, a line of code can be used.

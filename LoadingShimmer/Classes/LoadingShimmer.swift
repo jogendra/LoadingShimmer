@@ -41,7 +41,7 @@ public class LoadingShimmer: NSObject {
 
     private var addOffsetflag = false
 
-//    Pass the identifiers as nil if the view is not TableView
+    //    Pass the identifiers as nil if the view is not TableView
     public class func startCovering(_ view: UIView?, with identifiers: [String]?) {
         shared.coverSubviews(view, with: identifiers)
     }
